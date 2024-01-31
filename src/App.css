@@ -1,0 +1,38 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Caveat';
+}
+
+#root {
+    width: inherit;
+    height: inherit;
+}
+
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Caveat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/Caveat-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./fonts/Caveat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./fonts/Caveat-Bold.ttf');
+}
