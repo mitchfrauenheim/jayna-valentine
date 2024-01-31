@@ -71,7 +71,7 @@ function Home(props) {
                 </section>
             </main>
         </div>
-        <audio id="happySong" src="/happy.mp3" ref={happySongRef} loop={true} />
+        <audio id="happySong" src="/happy.mp3" ref={happySongRef} loop={true} className="text-4xl"/>
         <audio id="sadSong" src="/sad-violin.mp3" ref={sadSongRef} />
         </>
     )
