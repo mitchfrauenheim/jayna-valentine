@@ -56,7 +56,7 @@ function Home(props) {
                     </div>
                     <Lottie animationData={confettiAnimation} loop={false} autoplay={false} lottieRef={lottieRef} className="w-full sm:w-1/3 h-full sm:h-[150%] z-0" hidden={lottieHidden} />
                 </section>
-                <section className="w-4/5 sm:w-2/5 h-1/6 flex flex-row justify-between items-center z-10">
+                <section className="w-full sm:w-2/5 h-1/6 flex flex-row justify-between items-center z-10">
                         <div className="w-1/2 h-full flex justify-center">
                             <button onClick={handleYes} className="text-5xl active:text-[#FEE8EA]">yes &lt;3</button>
                         </div>
